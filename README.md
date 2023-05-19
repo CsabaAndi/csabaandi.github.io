@@ -1,3 +1,8 @@
+# gh-pages deploy branch already exists bug fix :
+
+delete node_modules/.cache/gh-pages
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
