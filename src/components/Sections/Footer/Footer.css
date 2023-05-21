@@ -1,5 +1,8 @@
 .Footer {
     text-align: center;
-    border-style: solid;
-    border-color: red;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(26, 37, 20, 0.616);
   }
