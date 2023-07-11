@@ -4,7 +4,7 @@ import './Footer.css'
 function Footer(){
         return (
             <div className="Footer">
-                <h1>Footer</h1>
+                <div>© Copyright 2023 Csaba Andi</div>
             </div>
             );
     }
