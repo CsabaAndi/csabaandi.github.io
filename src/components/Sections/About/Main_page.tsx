@@ -6,6 +6,7 @@ import Education from './Education'
 import Projects from './Projects'
 import About_top from './About_top'
 import About_bottom from './About_bottom'
+import Pop from '../Popup/Popup-window'
 
 function About_main() {
     return (
@@ -14,7 +15,7 @@ function About_main() {
             <About_bottom></About_bottom>
             <Stack></Stack>
             <Education></Education>  
-            <Projects></Projects>        
+            <Projects></Projects> 
         </div>
         )
 }
