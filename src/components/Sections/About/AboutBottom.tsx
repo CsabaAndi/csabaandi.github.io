@@ -1,13 +1,13 @@
 import React from 'react';
 
 
-function About_bottom() {
+function AboutBottom() {
     return (
         <section id='sect_2_about_bottom'>
              <div className="p-4 pt-12 md:p-8 md:pt-12">
                 <div className=''>
                     <h2 className='mb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Abo</span>
+                        <span className='text-cyan-600'>Abo</span>
                         ut me
                     </h2>
                 </div>
@@ -20,29 +20,23 @@ function About_bottom() {
                             <p className='prose  mb-4 text-stone-400 font-bold'>Ide magamról meg ilyesmi jön</p>
                             <ul className='grid grid-cols-1 gap-4 lg:grid-cols-2'>
                                 <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
+                                    <span className='text-xs font-bold text-white sm:text-sm'>Location: </span>
+                                    <span className=' text-xs text-gray-300 sm:text-sm'>Szeged</span>
                                 </li>
                                 <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
+                                    <span className='text-xs font-bold text-white sm:text-sm'>Nationality: </span>
+                                    <span className=' text-xs text-gray-300 sm:text-sm'>Hungarian</span>
                                 </li>
                                 <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
+                                    <span className='text-xs font-bold text-white sm:text-sm'>Study: </span>
+                                    <span className=' text-xs text-gray-300 sm:text-sm'>University of Szeged</span>
                                 </li>
                                 <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
+                                    <span className='text-xs font-bold text-white sm:text-sm'>Age: </span>
+                                    <span className=' text-xs text-gray-300 sm:text-sm'>23</span>
                                 </li>
-                                <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
-                                </li>
-                                <li className='col-span-1 flex items-start gap-x-2'>
-                                    <span className='text-xs font-bold text-white sm:text-sm'>Loc: </span>
-                                    <span className=' text-xs text-gray-300 sm:text-sm'>valahol</span>
-                                </li>
+
+
                             </ul>
                         </div>
                     </div>
@@ -61,4 +55,4 @@ function About_bottom() {
     )
 }
 
-export default About_bottom
+export default AboutBottom
