@@ -13,11 +13,13 @@ function AboutTop() {
                         <div className='z-20 flex w-full flex-col items-start  overflow-visible bg-stone-800 px-4 py-8 shadow-xl shadow-black/30 sm:rounded-2xl sm:p-8 lg:p-12'>                           
                             <div className='mb-4 flex w-full flex-wrap items-center'>
                                 <h1 className="mr-4 w-max text-3xl font-black text-white items-center ">Andi Csaba</h1>
-                                <p className='flex justify-start space-x-2 md:-left-2 text-stone-400 font-bold'>Mérnökinformatikus hallgató</p>
+                                <p className='flex justify-start space-x-2 md:-left-2 text-stone-400 font-bold'>&lt;Mérnökinformatikus hallgató&gt;</p>
                             </div>
                             <p className='prose  mb-1 text-stone-400 font-bold'>
-                                <strong className='text-stone-300'>Utolsó éves hallgató</strong>
-                                {", heti 36 óra ráéréssel"}<br/>
+                                <strong className='text-stone-300'> Szegedi Tudományegyetem, Természettudományi és Informatikai Karának </strong> 
+                                <strong className='text-stone-300'>utolsó éves</strong>
+                                mérnökinformatikus hallgatója.
+                                {"heti 36 óra ráéréssel"}<br/>
                                 {", heti 36 óra ráéréssel"}
                             </p>
                             <p className='prose text-stone-400'>Szakmagyakorlat</p>  

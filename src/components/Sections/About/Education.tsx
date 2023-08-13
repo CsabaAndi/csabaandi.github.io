@@ -3,7 +3,7 @@ import React from 'react';
 
 function Education() {
     return (
-        <section id='sect_3_stack' className='p-4 pt-12 md:p-8 md:pt-12'>
+        <section id='sect_4_edu' className='p-4 pt-12 md:p-8 md:pt-12'>
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8'>
                 <div className='col-span-1'>
                     <h2 className='mb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>

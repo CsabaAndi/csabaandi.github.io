@@ -15,6 +15,13 @@ Lists unused dependancies
 
 This command removes the packages that are no longer listed in package.json file and are not in use.
 
+
+## Docker
+
+### `docker-compose up -d --build`
+
+### `docker-compose stop`
+
 ## dev bug fixes :
 
  * gh-pages deploy branch already exists bug fix : `delete node_modules/.cache/gh-pages`
