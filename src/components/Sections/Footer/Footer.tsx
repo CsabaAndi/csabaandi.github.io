@@ -8,7 +8,7 @@ import React from 'react'
 
 function Footer(){
         return (
-          <footer className='flex flex-col w-full items-center justify-between gap-y-4 border-t-4 border border-sky-600 bg-stone-800 px-4 py-6 sm:flex-row sm:py-4 md:px-8'>
+          <footer className='flex flex-col w-full items-center justify-between gap-y-4 border-t-4 border border-stone-900 bg-stone-800 px-4 py-6 sm:flex-row sm:py-4 md:px-8'>
           <p className='w-max text-sm font-semibold text-stone-300'>© 2023 Csaba Andi</p>
           <div className='flex gap-x-6 sm:gap-x-4 text-stone-200'>
                     <a href='https://github.com' target="_blank" rel="noopener noreferrer" title="Github">

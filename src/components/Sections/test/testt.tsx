@@ -4,13 +4,13 @@ import Header from '../Header/Header';
 import About from '../About/MainPage'
 
 // border border-stone-900 base
-// border border-rose-600 testing
+// sm:border border border-rose-600 testing
 
 
 function Testt(){
     return (
 
-        <div id='main' className='flex flex-col grow min-h-full max-w-screen-xl items-start overflow-hidden border border-stone-900 bg-stone-900 sm:rounded-3xl sm:border sm:border-rose-600'>
+        <div id='main' className='flex flex-col grow min-h-full max-w-screen-xl items-start overflow-hidden border border-stone-900 bg-stone-900 sm:rounded-3xl'>
             <Header/>  
             <About/>               
             <Footer/>

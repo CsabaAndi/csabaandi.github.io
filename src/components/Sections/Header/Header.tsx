@@ -6,7 +6,7 @@ import React from 'react'
 
 function Header() {
     return (
-        <div className='flex w-full items-center justify-between border border-sky-600 p-4 md:p-8'>
+        <div className='flex w-full items-center justify-between border border-stone-900 p-4 md:p-8'>
             <text className='flex items-center text-xs text-white sm:text-3xl'>
                 <span className='mr-1'>Andi</span>
                 <span className='font-bold'>Csaba</span>

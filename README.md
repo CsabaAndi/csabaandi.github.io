@@ -26,5 +26,5 @@ This command removes the packages that are no longer listed in package.json file
 
 ## dev bug fixes :
 
- * gh-pages deploy branch already exists bug fix : `delete node_modules/.cache/gh-pages`
- * sometimes it just doesn't want to update to the latest commit : `just make another commit then deploy it to gh-pages`
+ * gh-pages : deploy branch already exists bug fix --> `delete node_modules/.cache/gh-pages`
+ * gh-pages : sometimes it just doesn't want to update to the latest commit --> `just make another commit then deploy it to gh-pages`
