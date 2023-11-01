@@ -22,9 +22,9 @@ function AboutTop() {
                                 {"heti 36 óra ráéréssel"}<br/>
                                 {", heti 36 óra ráéréssel"}
                             </p>
-                            <p className='prose text-stone-400'>Szakmagyakorlat</p>  
+                            <p className='prose text-stone-400'>Szakmaigyakorlat</p>  
                             <p className='prose text-stone-400'>Szakdolgozat</p>                           
-                        </div>
+                        </div>a
                     </div>
                 </div>  
         </section>

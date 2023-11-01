@@ -24,7 +24,7 @@ function AboutBottom() {
                                 {"heti 36 óra ráéréssel"}<br/>
                                 {", heti 36 óra ráéréssel"}
                             </p>
-                            <p className='prose text-stone-400'>Szakmagyakorlat</p>  
+                            <p className='prose text-stone-400'>Szakmaigyakorlat</p>  
                             <p className='prose text-stone-400'>Szakdolgozat</p>        
                             <p className='prose  mb-4 text-stone-400 font-bold'>Ide magamról meg ilyesmi jön</p>
                             
