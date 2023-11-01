@@ -8,7 +8,7 @@ function Projects() {
             <span className="text-green-700">Proje</span>
             cts
             </h2>
-            <div className='grid grid-cols-2 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-8'>
+            <div className='grid grid-cols-1 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-8'>
                 <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
                     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>WIP PROJECT 1</h3>
                     <div className='grid grid-cols-3 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-2'>                   

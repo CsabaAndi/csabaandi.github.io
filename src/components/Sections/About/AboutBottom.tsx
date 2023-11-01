@@ -18,8 +18,8 @@ function AboutBottom() {
                                 <p className='flex justify-start space-x-2 md:-left-2 text-stone-400 font-bold'>&lt;Mérnökinformatikus hallgató&gt;</p>
                             </div>
                             <p className='prose  mb-1 text-stone-400 font-bold'>
-                                <strong className='text-stone-300'> Szegedi Tudományegyetem, Természettudományi és Informatikai Karának </strong> 
-                                <strong className='text-stone-300'>utolsó éves</strong>
+                                <strong className='text-stone-300'> Szegedi Tudományegyetem, Természettudományi és Informatikai Karának </strong>
+                                <strong className='text-stone-300'>utolsó éves</strong> <br/>
                                 mérnökinformatikus hallgatója.
                                 {"heti 36 óra ráéréssel"}<br/>
                                 {", heti 36 óra ráéréssel"}
