@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Header  from './components/Sections/Header/Header';
-import About from './components/Sections/About/MainPage'
-import Footer from './components/Sections/Footer/Footer';
-import Testt from './components/Sections/test/testt';
+import Header  from './components/Header/Header';
+import About from './components/About/MainPage'
+import Footer from './components/Footer/Footer';
+import Testt from './components/test/testt';
 import img_test from './images/test2.jpg'
 
 
