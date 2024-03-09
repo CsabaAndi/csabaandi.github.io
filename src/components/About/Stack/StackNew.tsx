@@ -1,5 +1,3 @@
-import React from 'react'
-
 var bg_color_skill_full = "bg-amber-400"
 var bg_color_skill_empty = "bg-stone-700"
 

@@ -20,6 +20,4 @@ function Testt(){
     );
 }
 
-
-
 export default Testt;
