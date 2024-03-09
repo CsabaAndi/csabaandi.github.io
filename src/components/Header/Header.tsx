@@ -3,6 +3,7 @@ import { GithubIcon, LinkedinIcon} from '../Icons/MainIcons';
 
 // border border-stone-900 base
 // border border-sky-600 testing
+
 function Header() {
     return (
         <div className='flex w-full items-center justify-between border border-stone-900 p-4 md:p-8'>
