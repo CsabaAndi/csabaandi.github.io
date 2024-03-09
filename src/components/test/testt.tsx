@@ -1,7 +1,7 @@
-import React from 'react';
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import About from '../About/MainPage'
+import BackToTop from '../BackToTop/Back';
 
 // border border-stone-900 base
 // sm:border border border-rose-600 testing
@@ -14,6 +14,7 @@ function Testt(){
             <Header/>  
             <About/>               
             <Footer/>
+            <BackToTop></BackToTop>
         </div>    
                    
     );
