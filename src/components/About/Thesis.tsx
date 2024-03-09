@@ -1,5 +1,4 @@
-import React from 'react'
-import {GithubIcon, GithubIconThesis} from '../Icons/GithubIcon'
+import {GithubIcon} from '../Icons/GithubIcon'
 
 function Thesis() {
     return (
@@ -13,7 +12,7 @@ function Thesis() {
                     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>"Mély tanulás és szövegfeldolgozás alkalmazása a sportfogadásban"</h3>
                     <div className='grid grid-cols-8 grid-rows-2 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-2'> 
                         <div className='class="flex flex-col row-start-2 items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>                  
-                            <GithubIconThesis></GithubIconThesis>{/*nem responsive kicsi kép izé*/}                             
+                            <GithubIcon size_min={16} size_standard={32}></GithubIcon>                          
                         </div>
                         <div className='class="flex flex-col col-span-7 row-span-2 items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'> 
                             <p className='text-md text-left tracking-tight text-stone-200 sm:text-lg'> 
