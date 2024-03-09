@@ -42,9 +42,7 @@ function LinkedinIcon(props: icon) {
 
 function EmailIcon(props: icon) {} 
 /**
-   @todo: right your todo comment here
+   @todo: implement it
 **/
-
-
 
 export {GithubIcon, LinkedinIcon, EmailIcon} 
