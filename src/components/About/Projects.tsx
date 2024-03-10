@@ -5,7 +5,7 @@ const ProjectPartBlock: React.FC<{ name: string }> = ({ name }) => (
 );
 
 
-{/** @todo: test  **/}
+{/** @todo: delete later if not used  **/}
 const OtherPartBlock: React.FC<{}> = ({}) => (
     <div className='grid grid-cols-3 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-2'>                   
       <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
