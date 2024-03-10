@@ -52,9 +52,7 @@ function AboutBottom() {
                     <div className='flex w-full grow items-end gap-x-4 lg:flex-1 lg:basis-1/6'>
                         <div className='-my-8 flex w-full flex-1 justify-center self-center lg:-ml-24 lg:block  lg:py-16'>
                             <div className='relative z-20 aspect-square w-32 overflow-hidden rounded-3xl shadow-xl shadow-black/40  lg:w-auto '>
-                                <div style={{backgroundImage: `url("https://media.istockphoto.com/id/537373196/photo/trees-forming-a-heart.jpg?s=612x612&w=0&k=20&c=onZKNjkycICe4q2ZDnKi39z42Ax9tpZT7pph-2e5Seo=")`}}>
-                                <div className='flex h-64 w-64'></div>
-                                </div>
+                                <img src={"https://media.istockphoto.com/id/537373196/photo/trees-forming-a-heart.jpg?s=612x612&w=0&k=20&c=onZKNjkycICe4q2ZDnKi39z42Ax9tpZT7pph-2e5Seo="} alt="Logo" />;                               
                             </div>
                         </div>
                     </div>
