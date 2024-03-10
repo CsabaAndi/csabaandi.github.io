@@ -10,7 +10,7 @@ function Header() {
     const scrollToSection = (section: string) => {
         const section_projects = document.getElementById(section)
         if (section_projects != null) {
-            // 👉️ TypeScript knows that ref is not null here
+            // 
             section_projects.scrollIntoView();
     }
       };

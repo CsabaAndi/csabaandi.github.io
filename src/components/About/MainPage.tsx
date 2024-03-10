@@ -10,11 +10,11 @@ function About_main() {
     return (
         <div className='w-full grow pb-6'>
             {/*<AboutTop></AboutTop>*/}            
-            <AboutBottom></AboutBottom>
-            <StackNew></StackNew>
+            <AboutBottom></AboutBottom>           
             <Education></Education>  
             <Thesis></Thesis>
             <Projects></Projects> 
+            <StackNew></StackNew>
             <BackToTop></BackToTop>
         </div>
         )
