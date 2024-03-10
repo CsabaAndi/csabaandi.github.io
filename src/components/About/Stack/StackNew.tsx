@@ -6,18 +6,8 @@ const StackPartBlock: React.FC<{ name: string }> = ({ name }) => (
     <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
         <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{name}</h3> {/* Python Java JavaScript / TypeScript */}
     </div>
-  );
+);
   
-  
-  const StackBlock: React.FC<{ project_name: string }> = ({ project_name }) => (
-    <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
-        <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{project_name}</h3>
-        <StackPartBlock name="Docker"></StackPartBlock>  
-        <StackPartBlock name="Docker"></StackPartBlock>  
-        <StackPartBlock name="Docker"></StackPartBlock>  
-    </div>
-  );
-
 
 function StackNew() {
     return (
@@ -27,15 +17,35 @@ function StackNew() {
                 e tech stack - NEW
             </h2>
             <div className='grid grid-cols-2 gap-2 sm:auto-cols-fr sm:grid-flow-col lg:gap-8'>
-                <StackBlock project_name="Backend"></StackBlock>
-                <StackBlock project_name="Frontend"></StackBlock>
-                <StackBlock project_name="Contanirezation"></StackBlock>
-                <StackBlock project_name="Engineering"></StackBlock>
+                <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>Backend</h3> {/* Python Java JavaScript / TypeScript */}
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>
+                </div>
+                <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>Frontend</h3> {/* Python Java JavaScript / TypeScript */}
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>
+                </div>
+                <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>Contanirezation</h3> {/* Python Java JavaScript / TypeScript */}
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>
+                </div>
+                <div className='class="flex flex-col items-center justify-center space-y-2 rounded-xl border-none border-green-900 bg-stone-800 px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>Engineering</h3> {/* Python Java JavaScript / TypeScript */}
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>  
+                    <StackPartBlock name="Docker"></StackPartBlock>
+                </div>
+                
             </div>
-
         </section>
-        )
-    }
+    )
+}
     
     
 export default StackNew
