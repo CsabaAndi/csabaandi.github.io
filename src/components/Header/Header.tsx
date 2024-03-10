@@ -11,9 +11,11 @@ function Header() {
         const section_projects = document.getElementById(section)
         if (section_projects != null) {
             // 
-            section_projects.scrollIntoView();
-    }
-      };
+            section_projects.scrollIntoView({
+                behavior: 'smooth' 
+              })
+            }   
+      }
 
 
     return (
