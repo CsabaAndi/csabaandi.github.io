@@ -4,7 +4,18 @@ import { GithubIcon, LinkedinIcon} from '../Icons/MainIcons';
 // border border-stone-900 base
 // border border-sky-600 testing
 
+    
 function Header() {
+
+    const scrollToSection = (section: string) => {
+        const section_projects = document.getElementById(section)
+        if (section_projects != null) {
+            // 👉️ TypeScript knows that ref is not null here
+            section_projects.scrollIntoView();
+    }
+      };
+
+
     return (
         <div className='flex w-full items-center justify-between border border-stone-900 p-4 md:p-8'>
             <text id="header_text_name" className='flex items-center text-xs text-white sm:text-3xl'>
@@ -12,15 +23,12 @@ function Header() {
                 <span className='font-bold'>Csaba</span>
             </text>
             <div id="header_section_links" className='flex gap-x-2 text-stone-200 text-xs sm:gap-x-4 sm:text-2xl'> {/** @todo: better implementation pls **/}
-                <a href='#sect_xy_thesis' rel="noopener noreferrer" title="Szakdolgozat">
+                <button onClick={() => scrollToSection("sect_xy_thesis")}>
                     <span>Szakdolgozat</span>
-                </a>
-                <a href='#sect_xy_thesis' rel="noopener noreferrer" className='hidden'>
-                    <span>Projectek</span>
-                </a>
-                <a href='#sect_4_edu' rel="noopener noreferrer" title="Tanulmányok">
+                </button>
+                <button onClick={() => scrollToSection("sect_4_edu")}>
                     <span>Tanulmányok</span>
-                </a>
+                </button>
             </div>
             <div id="header_icons" className='flex gap-x-2 sm:gap-x-3'>
                 <GithubIcon size_min={16} size_standard={32}></GithubIcon>
