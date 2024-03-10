@@ -44,6 +44,16 @@ function Education() {
                         <ExperienceRowBlock start_year={2019} end_year="" location="vahaloh" description="English vmi complex c"></ExperienceRowBlock>               
                     </ul>
                 </div>
+                {/* for future work experience */}
+                <div className='col-span-1 hidden'>
+                    <h2 className='mb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
+                        <span className='text-green-700'>Work </span>
+                        Experience
+                    </h2>
+                    <ul>
+                        <ExperienceRowBlock start_year={2005} end_year="" location="Mustafar" description="I Have The High Ground"></ExperienceRowBlock>                   
+                    </ul>
+                </div>
             </div>
         </section>
     )
