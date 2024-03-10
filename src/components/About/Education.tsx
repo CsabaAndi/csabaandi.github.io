@@ -1,4 +1,25 @@
+type experience = {
+    start_year: string | number
+    end_year: number | string
+    location: string
+    description: string
+  }
 
+
+const ExperienceRowBlock: React.FC<experience> = (data: experience) => (
+    <li className='relative border-b border-l border-stone-700 py-4 pl-4 last:border-b-0'>
+        <div className='absolute -left-2 top-3 flex items-center space-x-2 md:-left-2'>
+            <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs font-bold text-white shadow-xl shadow-black/30'>
+                {data.start_year} {data.end_year != "" ? "-" : ""} {data.end_year}
+            </span>
+            <span className='text-xs font-medium text-stone-400'>{data.location}</span>
+        </div>
+        <div className='prose prose-sm flex flex-col pt-10 prose-ul:list-none'>
+            <h2 className='font-bold text-stone-200'>{data.description}</h2>
+        </div>
+    </li>   
+)
+        
 
 function Education() {
     return (
@@ -10,28 +31,8 @@ function Education() {
                         cation
                     </h2>
                     <ul>
-                        <li className='relative border-b border-l border-stone-700 py-4 pl-4 last:border-b-0'>
-                            <div className='absolute -left-2 top-3 flex items-center space-x-2 md:-left-2'>
-                                <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs font-bold text-white shadow-xl shadow-black/30'>
-                                    2019 - present
-                                </span>
-                                <span className='text-xs font-medium text-stone-400'>Szegedi Tudományegyetem</span>
-                            </div>
-                            <div className='prose prose-sm flex flex-col pt-10 prose-ul:list-none'>
-                                <h2 className='font-bold text-stone-200'>Bachelor of Computer Science Engineering</h2>
-                            </div>
-                        </li>   
-                        <li className='relative border-b border-l border-stone-700 py-4 pl-4 last:border-b-0'>
-                            <div className='absolute -left-2 top-3 flex items-center space-x-2 md:-left-2'>
-                                <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs font-bold text-white shadow-xl shadow-black/30'>
-                                    2015 - 2019
-                                </span>
-                                <span className='text-xs font-medium text-stone-400'>Szekszárdi I. Béla Gimnázium, Kollégium és Általános Iskola</span>
-                            </div>
-                            <div className='prose prose-sm flex flex-col pt-10 prose-ul:list-none'>
-                                <h2 className='font-bold text-stone-200'>izé</h2>
-                            </div>
-                        </li>                  
+                        <ExperienceRowBlock start_year={2019} end_year="present" location="Szegedi Tudományegyetem" description="Bachelor of Computer Science Engineering"></ExperienceRowBlock>  
+                        <ExperienceRowBlock start_year={2015} end_year={2019} location="Szekszárdi I. Béla Gimnázium, Kollégium és Általános Iskola" description="izé"></ExperienceRowBlock>                    
                     </ul>
                 </div>
                 <div className='col-span-1'>
@@ -39,18 +40,8 @@ function Education() {
                         <span className='text-green-700'>Lan</span>
                         guages
                     </h2>
-                    <ul>
-                        <li className='relative border-b border-l border-stone-700 py-4 pl-4 last:border-b-0'>
-                            <div className='absolute -left-2 top-3 flex items-center space-x-2 md:-left-2'>
-                                <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs font-bold text-white shadow-xl shadow-black/30'>
-                                    2019
-                                </span>
-                                <span className='text-xs font-medium text-stone-400'>vahaloh</span>
-                            </div>
-                            <div className='prose prose-sm flex flex-col pt-10 prose-ul:list-none'>
-                                <h2 className='font-bold text-stone-200'>English vmi complex c</h2>
-                            </div>
-                        </li>                    
+                    <ul>                       
+                        <ExperienceRowBlock start_year={2019} end_year="" location="vahaloh" description="English vmi complex c"></ExperienceRowBlock>               
                     </ul>
                 </div>
             </div>
