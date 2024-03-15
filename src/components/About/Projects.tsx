@@ -27,7 +27,7 @@ function Projects() {
 
           <div className='grid gap-2 col-span-6 col-start-2 sm:auto-cols-fr sm:grid-flow-col md:gap-4 lg:gap-6'>
 
-            <div className='space-y-2 p-4 rounded-xl border-none border-green-900 bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+            <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
               <h3 className='text-md text-center mb-4 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
               <PartBlockWithIcon name="Python"></PartBlockWithIcon>
               <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
@@ -37,16 +37,17 @@ function Projects() {
               </p>
             </div>
 
-            <div className='space-y-2 p-4 rounded-xl border-none border-green-900 bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+            <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
               <h3 className='text-md text-center mb-4 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Portfolio</h3>
-              <PartBlockWithIcon name="React/ts/tailwindcss"></PartBlockWithIcon>
+              <PartBlockWithIcon name="React"></PartBlockWithIcon>
+              <PartBlockWithIcon name="tailwindcss"></PartBlockWithIcon>
               <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
               <p className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg py-4'>
                 Porfolió weboldal
               </p>
             </div>
 
-            <div className='space-y-2 p-4 rounded-xl border-none border-green-900 bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+            <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
               <h3 className='text-md text-center mb-4 font-extrabold tracking-tight text-stone-200 sm:text-lg'>WIP PROJECT 3</h3>
               <PartBlockWithIcon name="Python"></PartBlockWithIcon>
               <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
