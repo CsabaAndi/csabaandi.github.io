@@ -1,4 +1,4 @@
-import {GithubIcon} from '../Icons/MainIcons'
+import {GithubIcon} from '../Icons/SocialIcons'
 
 function Thesis() {
     return (

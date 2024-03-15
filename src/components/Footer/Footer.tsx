@@ -1,4 +1,4 @@
-import { EmailIcon, GithubIcon, LinkedinIcon } from "../Icons/MainIcons"
+import { EmailIcon, GithubIcon, LinkedinIcon } from "../Icons/SocialIcons"
 
 
 // border border-stone-900 base
