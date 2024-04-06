@@ -19,23 +19,24 @@ const PartBlockWithIcon: React.FC<{ name: string}> = ({ name,}) => (
 {/** @todo: fix whole **/}
 function Projects() {
   return (
-      <section id='sect_x_projects' className='p-4 pt-12 md:p-8 md:pt-12'>
-          <h2 className='mb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
+      <section id='sect_x_projects' className='px-4 mb-20 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
+          <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
           <span className="text-green-700">Proje</span>
           cts
           </h2>
           <div className='grid grid-cols-8 sm:grid-cols-1'>
 
             <div className='grid col-span-6 col-start-2 gap-4 sm:gap-2 md:gap-4 lg:gap-6 col-start-2 sm:auto-cols-fr sm:grid-flow-col'>
-
+              {/** @todo: **/}
               <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
                 <h3 className='text-md text-center mb-4 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
                 <PartBlockWithIcon name="Python"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
-                <p className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg py-4'>
-                  Adatgyüjtés a <br/>
-                  Szakdolgozathoz
-                </p>
+                <div className="overflow-hidden border-none border-green-900 bg-stone-980 rounded-xl">
+                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg py-4' >Adatgyüjtés a Szakdolgozathoz</h3>
+                  </p>
+                </div>
               </div>
 
               <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
@@ -43,9 +44,11 @@ function Projects() {
                 <PartBlockWithIcon name="React"></PartBlockWithIcon>
                 <PartBlockWithIcon name="tailwindcss"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
-                <p className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg py-4'>
-                  Porfolió weboldal
-                </p>
+                <div className="overflow-hidden border-none border-green-900 bg-stone-800 rounded-xl">
+                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg py-' >Porfolió weboldal</h3>
+                  </p>
+                </div>
               </div>
 
               <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
@@ -53,9 +56,11 @@ function Projects() {
                 <PartBlockWithIcon name="Python"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
-                <p className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg py-4'>
-                    Linux szerveren való futtatása a portfólio weboldalnak
-                </p>
+                <div className="overflow-hidden border-none border-green-900 bg-stone-800 rounded-xl">
+                  <p className='row-span-5 break-normal text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                    <h3 className='text-md text-center font-extrabold tracking-tight break-normal text-stone-200 px-2 sm:text-lg py-4' >Linux szerveren való futtatása a portfólio weboldalnak</h3>
+                  </p>
+                </div>
               </div>
 
             </div>
