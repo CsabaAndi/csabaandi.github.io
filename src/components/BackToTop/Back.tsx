@@ -37,7 +37,7 @@ function BackToTop() {
                 aria-hidden="true"
                 focusable="false"
                 data-prefix="fas"
-                className="h-4 w-4"
+                className="h-3 w-3"
                 role="img"
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 448 512">
