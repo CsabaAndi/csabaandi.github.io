@@ -21,7 +21,7 @@ const StackPartBlock: React.FC<{ name: string, description: string}> = ({ name, 
 const TestBlock: React.FC<{ title: string}> = ({ title}) => (
     <div className='p-2'>
         <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{title}</h3> {/* Python Java JavaScript / TypeScript */}
-        <div className='grid grid-rows-1 border-none'>
+        <div className='mt-4 grid grid-rows-1 border-none'>
             <div className='flex flex-wrap gap-4 md:gap-8 lg:gap-9
                             justify-items-start items-center rounded-xl border-none  bg-stone-800 bg-stone-800 px-1 py-2 sm:px-2 sm:py-4 
                             shadow-xl shadow-black/30'>
@@ -85,14 +85,14 @@ const TestBlock: React.FC<{ title: string}> = ({ title}) => (
 
 function StackNew() {
     return (
-        <section id='sect_3_stacknew' className='p-4 pt-12 md:p-8 md:pt-12'>
-            <h2 className='mb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                <span className='text-green-700'>Cor</span>
-                e tech stack - NEW
+        <section id='sect_3_stacknew' className='px-4 mb-4 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
+            <h2 className='mb-0 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
+                <span className='text-green-700'>Szak</span>
+                mai - Ismeretek
             </h2>
 
             <div className='grid'>
-                <div className='space-y-2 rounded-xl border-none  px-2 py-4 shadow-xl shadow-black/30 sm:p-6'>
+                <div className='space-y-2 rounded-xl border-none  px-2 py-4 shadow-xl shadow-black/30 sm:p-6'> {/** @todo: padding size**/}
                     <TestBlock title="Backend"></TestBlock>
                     <TestBlock title="Frontend"></TestBlock>
                     <TestBlock title="Privacy"></TestBlock>
