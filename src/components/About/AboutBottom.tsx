@@ -2,7 +2,7 @@
 
 function AboutBottom() {
     return (
-        <section id='sect_2_about_bottom' className="p-4 mb-20 sm:p-0 sm:px-4 md:px-8"> {/** @todo: padding/margin size**/}
+        <section id='sect_2_about_bottom' className="p-4 mb-12 sm:p-0 sm:px-4 md:px-8"> {/** @todo: padding/margin size**/}
                 <div className=''>
                     <h2 className='pb-4 lg:pb-6 md:pb-4 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
                         <span className='text-green-700'>Abo</span>

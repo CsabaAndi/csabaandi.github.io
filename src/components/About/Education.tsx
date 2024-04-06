@@ -23,7 +23,7 @@ const ExperienceRowBlock: React.FC<experience> = (data: experience) => (
 
 function Education() {
     return (
-        <section id='sect_4_edu' className='px-4 mb-20 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
+        <section id='sect_4_edu' className='px-4 mb-12 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8'>
                 <div className='col-span-1'>
                     <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
