@@ -10,7 +10,7 @@ import BackToTop from '../BackToTop/Back';
 function Testt(){
     return (
 
-        <div id='main' className='flex flex-col grow min-h-full max-w-screen-xl items-start overflow-hidden border border-stone-900 bg-stone-900 sm:rounded-3xl'>
+        <div id='main' className='flex flex-col max-w-screen-xl items-start overflow-hidden border border-stone-900 bg-stone-900 sm:rounded-3xl'>
             <Header/>  
             <About/>               
             <Footer/>
