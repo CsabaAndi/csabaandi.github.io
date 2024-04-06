@@ -85,7 +85,7 @@ const TestBlock: React.FC<{ title: string}> = ({ title}) => (
 
 function StackNew() {
     return (
-        <section id='sect_3_stacknew' className='px-4 mb-4 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
+        <section id='sect_3_stacknew' className='px-4 mb- sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
             <h2 className='mb-0 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
                 <span className='text-green-700'>Szak</span>
                 mai - Ismeretek
