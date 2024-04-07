@@ -27,8 +27,8 @@ function Education() {
             <div className='grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-8'>
                 <div className='col-span-1'>
                     <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Edu</span>
-                        cation
+                        <span className='text-green-700'>Tan</span>
+                        ulmányok
                     </h2>
                     <ul>
                         <ExperienceRowBlock start_year={2019} end_year="present" location="Szegedi Tudományegyetem" description="Bachelor of Computer Science Engineering"></ExperienceRowBlock>  
@@ -37,11 +37,11 @@ function Education() {
                 </div>
                 <div className='col-span-1'>
                     <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Lan</span>
-                        guages
+                        <span className='text-green-700'>Ny</span>
+                        elv
                     </h2>
                     <ul>                       
-                        <ExperienceRowBlock start_year={2019} end_year="" location="vahaloh" description="English vmi complex c"></ExperienceRowBlock>               
+                        <ExperienceRowBlock start_year={2019} end_year="" location="Szekszárd" description="English vmi complex c"></ExperienceRowBlock>               
                     </ul>
                 </div>
                 {/* for future work experience */}
