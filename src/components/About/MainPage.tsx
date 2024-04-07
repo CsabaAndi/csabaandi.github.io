@@ -1,6 +1,5 @@
 import Education from './Education'
 import Projects from './Projects'
-import AboutTop from './AboutTop'
 import AboutBottom from './AboutBottom'
 import Thesis from './Thesis'
 import BackToTop from '../BackToTop/Back'
