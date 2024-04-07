@@ -32,7 +32,7 @@ function Projects() {
                 <h3 className='text-md text-center mb-4 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
                 <PartBlockWithIcon name="Python"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
-                <div className="overflow-hidden border-none border-green-900 bg-stone-980 rounded-xl">
+                <div className="overflow-hidden border-none border-green-900 bg-none rounded-xl">
                   <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
                     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg py-4' >Adatgyüjtés a Szakdolgozathoz</h3>
                   </p>
@@ -44,9 +44,9 @@ function Projects() {
                 <PartBlockWithIcon name="React"></PartBlockWithIcon>
                 <PartBlockWithIcon name="tailwindcss"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
-                <div className="overflow-hidden border-none border-green-900 bg-stone-800 rounded-xl">
+                <div className="overflow-hidden border-none border-green-900 bg-none rounded-xl">
                   <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
-                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg py-' >Porfolió weboldal</h3>
+                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg py-' >Responsive portfolió weboldal</h3>
                   </p>
                 </div>
               </div>
@@ -56,7 +56,7 @@ function Projects() {
                 <PartBlockWithIcon name="Python"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
-                <div className="overflow-hidden border-none border-green-900 bg-stone-800 rounded-xl">
+                <div className="overflow-hidden border-none border-green-900 bg-none rounded-xl">
                   <p className='row-span-5 break-normal text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
                     <h3 className='text-md text-center font-extrabold tracking-tight break-normal text-stone-200 px-2 sm:text-lg py-4' >Linux szerveren való futtatása a portfólio weboldalnak</h3>
                   </p>
