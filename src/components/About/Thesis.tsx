@@ -24,10 +24,18 @@ function Thesis() {
             <div className='grid grid-cols-1 lg:grid-cols-6 md:grid-cols-8 sm:grid-cols-6 rounded-xl'>
                 <div className='grid lg:col-span-4 lg:col-start-2 md:col-span-6 md:col-start-2 sm:col-span-6 sm:col-start-1'>
 
-                    <div className='space-y-2 p-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-                        <h3 className='text-md text-center mb-6 font-extrabold tracking-tight text-stone-200 sm:text-lg'>
-                        "Mély tanulás és szövegfeldolgozás alkalmazása a sportfogadásban"
-                        </h3>
+                    <div className='space-y-2 p-4  rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:pt-4 sm:px-6 md:p-4 lg:p-4'>
+                        <div className='flex justify-end'>
+
+                            <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>
+                            "Mély tanulás és szövegfeldolgozás alkalmazása a sportfogadásban"
+                            
+                            </h3>
+                            <div className='p-1 ml-2 lg:ml-16 md:ml-10 sm:ml-2 sm:pr-1 md:p-1 border-none border-green-900'>
+                                <GithubIcon size_min={24} size_standard={32}></GithubIcon>
+                            </div>
+
+                        </div>
                         <div className='grid grid-cols-4 gap-x-2'>
                             <div className='flex flex-col col-start-1 place-content-evenly gap-y-2'>
                                 <div className=''>
@@ -51,17 +59,6 @@ function Thesis() {
                                 Morbi vestibulum orci turpis, vel maximus risus laoreet sit amet. Maecenas dapibus dui vitae blandit condimentum. Praesent non odio erat. Curabitur molestie vestibulum aliquam.
 
                                 </p>
-                            </div>
-                        </div>
-                        <div className='flex justify-items-end justify-end gap-x-2 border-none border-red-500 border-solid'> {/** @todo: egész**/}
-                            <div className='border-none border-green-900'>
-                                <PythonIcon size_min={16} size_standard={32}></PythonIcon>
-                            </div>
-                            <div className='border-none  border-green-900'>
-                                <PythonIcon size_min={16} size_standard={32}></PythonIcon>
-                            </div>
-                            <div className='border-none  border-green-900'>
-                                <PythonIcon size_min={16} size_standard={32}></PythonIcon>
                             </div>
                         </div>
                     </div>
