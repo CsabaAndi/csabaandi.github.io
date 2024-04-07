@@ -30,11 +30,11 @@ function BackToTop() {
       {showButton && (
         <button 
             onClick={scrollToTop}
-            className="!fixed bottom-5 right-5  rounded-full bg-green-700 p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition 
-            duration-150 ease-in-out hover:bg-red-700 hover:shadow-lg focus:bg-red-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-red-800 active:shadow-lg"
+            className="!fixed bottom-5 right-5  rounded-full bg-green-700 p-3 text-white 
+            transition duration-150 ease-in-out hover:bg-green-500 hover:shadow-lg focus:bg-green-700 focus:shadow-lg active:bg-green-700"
             id="btn_back_to_top">
             <svg
-                aria-hidden="true"
+                aria-hidden="false"
                 focusable="false"
                 data-prefix="fas"
                 className="h-3 w-3"
