@@ -16,33 +16,33 @@ function AboutBottom() {
 
                                 <h1 className="text-3xl font-black text-white items-center ">Andi Csaba</h1>
 
-                                <p className='mt-1 ml-0 xs:ml-1 xxs:ml-0.5 sm:ml-2 text-stone-400 font-bold'>&lt;Mérnökinformatikus hallgató&gt;</p>
+                                <p className='mt-1 ml-0 xs:ml-1 xxs:ml-0.5 sm:ml-2 text-stone-400 font-bold text-sm sm:text-lg'>&lt;Mérnökinformatikus hallgató&gt;</p>
                             </div>
                             <p className='prose text-stone-400 font-bold'>
-                                <strong className='text-stone-300'> Szegedi Tudományegyetem, Természettudományi és Informatikai Karának </strong>
-                                <strong className='text-stone-300'>utolsó éves </strong>
-                                mérnökinformatikus hallgatója vagyok.
+                                Szegedi Tudományegyetem, Természettudományi és Informatikai Karának{" "}
+                                <strong className='text-stone-300'>utolsó éves, mérnökinformatikus</strong>                               
+                                {" "}hallgatója vagyok.<br/><br/>
+                                Aki jelenleg{" "}
+                                <strong className='text-stone-300'>Szakmaigyakorlat</strong>
+                                {" "}céljából keres munkahelyet egyetem mellett akár{" "}
+                                <strong className='text-stone-300'>teljes munkaidős állásban.</strong>{" (heti 40. óra)"} 
                             </p>
                             <div className='grid grid-cols-2 gap-y-2 gap-x-0 sm:gap-x-0 md:gap-x-10 lg:gap-x-0 lg:grid-cols-4'>
-                                <div className='flex col-start-1 content-evenly lg:col-span-1'>
+                                <div className='flex col-start-1 content-evenly lg:col-span-2'>
                                     {/** <p className='col-start-1 prose text-stone-400'>Szakmaigyakorlat</p>  **/}
                                     {/** <p className='col-start-1 prose text-stone-400'>Szakdolgozat</p>      **/}
                                     {/** <p className='col-start-1 prose  mb-4 text-stone-400 font-bold'>Ide magamról meg ilyesmi jön</p> **/}
                                     <ul className='grid grid-cols-1 col-start-1 gap-2'>
                                         <li className='col-span-1 flex items-start gap-x-2'>
-                                            <span className='text-xs font-bold text-white sm:text-sm'>Location: </span>
+                                            <span className='text-xs font-bold text-white sm:text-sm'>Tartozkodás: </span>
                                             <span className=' text-xs text-gray-300 sm:text-sm'>Szeged</span>
                                         </li>
                                         <li className='col-span-1 flex items-start gap-x-2'>
-                                            <span className='text-xs font-bold text-white sm:text-sm'>Nationality: </span>
-                                            <span className=' text-xs text-gray-300 sm:text-sm'>Hungarian</span>
-                                        </li>
-                                        <li className='col-span-1 flex items-start gap-x-2'>
                                             <span className='text-xs font-bold text-white sm:text-sm'>Study: </span>
-                                            <span className=' text-xs text-gray-300 sm:text-sm'>University of Szeged</span>
+                                            <span className=' text-xs text-gray-300 sm:text-sm'>Mérnökinformatikus bsc</span>
                                         </li>
                                         <li className='col-span-1 flex items-start gap-x-2'>
-                                            <span className='text-xs font-bold text-white sm:text-sm'>Age: </span>
+                                            <span className='text-xs font-bold text-white sm:text-sm'>Életkor: </span>
                                             <span className=' text-xs text-gray-300 sm:text-sm'>23</span>
                                         </li>
                                     </ul>
@@ -52,17 +52,17 @@ function AboutBottom() {
                                     <ul className='grid grid-cols-1 gap-4'>
                                         <li className='col-span-1 flex gap-x-2'>
                                             <span className='font-bold'>Főzés: </span>
-                                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                            <p className="pt-1 sm:pt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                             </p>
                                         </li>
                                         <li className='col-span-1 flex gap-x-2'>
-                                            <span className='font-bold'>Főzés: </span>
-                                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                            <span className='font-bold'>Futás: </span>
+                                            <p className="pt-1 sm:pt-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
                                             </p>
                                         </li>
                                         <li className='col-span-1 flex gap-x-2'>
-                                            <span className='font-bold'>Főzés: </span>
-                                            <p className="">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                                            <span className='font-bold'>Könyvek: </span>
+                                            <p className="pt-1 sm:pt-0">Krimi és Fantasy rajongó vagyok. 
                                             </p>
                                         </li>
                                         
