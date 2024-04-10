@@ -27,27 +27,24 @@ function AboutBottom() {
                                 {" "}céljából keres munkahelyet egyetem mellett akár{" "}
                                 <strong className='text-stone-300'>teljes munkaidős állásban.</strong>{" (heti 40. óra)"} 
                             </p>
-                            <div className='grid grid-cols-2 gap-y-2 gap-x-0 sm:gap-x-0 md:gap-x-10 lg:gap-x-0 lg:grid-cols-4'>
-                                <div className='flex col-start-1 content-evenly lg:col-span-2'>
-                                    {/** <p className='col-start-1 prose text-stone-400'>Szakmaigyakorlat</p>  **/}
-                                    {/** <p className='col-start-1 prose text-stone-400'>Szakdolgozat</p>      **/}
-                                    {/** <p className='col-start-1 prose  mb-4 text-stone-400 font-bold'>Ide magamról meg ilyesmi jön</p> **/}
-                                    <ul className='grid grid-cols-1 col-start-1 gap-2'>
-                                        <li className='col-span-1 flex items-start gap-x-2'>
+                            <div className='grid grid-cols-2 gap-x-2 sm:gap-x-0 md:gap-x-10 lg:gap-x-0 lg:grid-cols-4'>
+                                <div className='grid col-start-1 lg:col-span-2 items-end'>
+                                    <ul className='grid gap-y-6 sm:gap-y-0'> {/** @todo: space beetween **/}
+                                        <li className='gap-x-2'>
                                             <span className='text-xs font-bold text-white sm:text-sm'>Tartozkodás: </span>
-                                            <span className=' text-xs text-gray-300 sm:text-sm'>Szeged</span>
+                                            <span className='text-xs text-gray-300 sm:text-sm'>Szeged</span>
                                         </li>
-                                        <li className='col-span-1 flex items-start gap-x-2'>
+                                        <li className='gap-x-2'>
                                             <span className='text-xs font-bold text-white sm:text-sm'>Study: </span>
-                                            <span className=' text-xs text-gray-300 sm:text-sm'>Mérnökinformatikus bsc</span>
+                                            <span className='text-xs text-gray-300 sm:text-sm'>Mérnökinformatikus bsc</span>
                                         </li>
-                                        <li className='col-span-1 flex items-start gap-x-2'>
+                                        <li className='gap-x-2'>
                                             <span className='text-xs font-bold text-white sm:text-sm'>Életkor: </span>
-                                            <span className=' text-xs text-gray-300 sm:text-sm'>23</span>
+                                            <span className='text-xs text-gray-300 sm:text-sm'>23</span>
                                         </li>
                                     </ul>
                                 </div>
-                                <div className='col-start-2 rounded-xl border-none bg-stone-900 text-xs sm:text-sm text-white overflow-hidden break-words p-2 lg:col-start-3 lg:col-span-2'>
+                                <div className='col-start-2 rounded-xl border-none bg-stone-900 text-xs sm:text-sm text-white overflow-hidden break-words p-1 lg:col-start-3 lg:col-span-2'>
                                     <p className="text-xs font-bold text-white sm:text-sm">Hobbik:</p>
                                     <ul className='grid grid-cols-1 gap-4'>
                                         <li className='col-span-1 flex gap-x-2'>
