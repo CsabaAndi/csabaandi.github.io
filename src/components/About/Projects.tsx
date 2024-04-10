@@ -116,7 +116,7 @@ function Projects() {
               </div>
 
 
-              <div className='flex flex-col hiddenspace-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+              <div className='flex flex-col hidden space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
                 <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>LOREM</h3>
                 {/** @todo: whole block shenanigans */}
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
