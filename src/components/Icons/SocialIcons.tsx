@@ -1,14 +1,7 @@
-type icon = {
-    size_min: number;
-    size_standard: number;
-}
-type giticon = {
-    size_min: number;
-    size_standard: number;
-    link: string;
-}
+import {GitIconProps, IconSizeProps} from "./icons.interface.js"
 
-function GithubIcon(props: giticon) {
+
+function GithubIcon(props: GitIconProps) {
     return (
         <div>
             <div className='flex gap-x-2 sm:gap-x-3 text-stone-200 sm:hidden'>
@@ -26,7 +19,7 @@ function GithubIcon(props: giticon) {
 }
 
 
-function LinkedinIcon(props: icon) {
+function LinkedinIcon(props: IconSizeProps) {
     return (
         <div>
             <div className='flex gap-x-2 sm:gap-x-3 text-stone-200 sm:hidden'>
@@ -45,7 +38,7 @@ function LinkedinIcon(props: icon) {
 }
 
 
-function EmailIcon(props: icon) {} 
+function EmailIcon(props: IconSizeProps) {} 
 /**
    @todo: implement it
 **/
