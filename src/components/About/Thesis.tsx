@@ -79,7 +79,7 @@ function Thesis() {
                                 
 
                             </div>
-                            <div className='grid grid-rows-5 col-start-2 col-span-3 overflow-hidden border-none border-green-900 bg-stone-900 rounded-xl'>  {/** @todo: cols/rows--> size sm-md-lg **/}
+                            <div className='grid grid-rows-5 col-start-2 col-span-3 overflow-hidden sm:border-2 border-green-900 bg-stone-900 rounded-xl'>  {/** @todo: cols/rows--> size sm-md-lg **/}
                                 <p className='row-span-5 break-all text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
                                 <h3 className='text-center' >Lorem Ipsum</h3>
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices, tortor in finibus gravida, tortor justo luctus lorem, eleifend ultrices sapien lorem sit amet mauris. 
