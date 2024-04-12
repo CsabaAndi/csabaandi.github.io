@@ -64,7 +64,7 @@ function Projects() {
                 </div>
               
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
-                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 '> {/** @todo: word break: break-all for now **/}
                     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Adatgyüjtés a Szakdolgozathoz</h3>
                   </p>
                 </div>            
@@ -118,7 +118,7 @@ function Projects() {
                 </div>
 
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
-                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4'> {/** @todo: word break: break-all for now **/}
                     <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Responsive portfolió weboldal</h3>
                   </p>
                 </div>
@@ -141,7 +141,7 @@ function Projects() {
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
-                  <p className='row-span-5 break-normal text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                  <p className='row-span-5 break-normal text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4'> {/** @todo: word break: break-all for now **/}
                     <h3 className='text-md text-center font-extrabold tracking-tight break-normal text-stone-200 px-2 sm:text-lg' >Linux szerveren való futtatása a portfólio weboldalnak</h3>
                   </p>
                 </div>
