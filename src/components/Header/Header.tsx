@@ -33,7 +33,7 @@ function Header() {
                 </button>
             </div>
             <div id="header_icons" className='flex gap-x-2 sm:gap-x-3'>
-                <GithubIcon size_min={16} size_standard={32}></GithubIcon>
+                <GithubIcon size_min={16} size_standard={32} link='https://github.com/CsabaAndi'></GithubIcon>
                 <LinkedinIcon size_min={16} size_standard={32}></LinkedinIcon>
             </div>
         </div>

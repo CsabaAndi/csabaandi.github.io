@@ -1,4 +1,5 @@
 import * as Icons from "../Icons/ProjectIcons"
+import {GithubIcon} from '../Icons/SocialIcons'
 
 
 {/** @todo: fix icons **/}
@@ -29,8 +30,17 @@ function Projects() {
             <div className='grid col-span-6 col-start-2 gap-4 sm:gap-2 md:gap-4 lg:gap-6 col-start-2 sm:auto-cols-fr sm:grid-flow-col'>
               {/** @todo: **/}
               <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-                <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
-                
+
+                <div className='grid grid-cols-6'>
+                  <div className='grid col-start-2 col-span-4 justify-center'>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
+                  </div>
+                  
+                  <div className='grid mt-0 sm:mr-0 col-start-6 self-start place-self-end border-none border-green-900'>
+                        <GithubIcon size_min={24} size_standard={24} link="https://github.com/CsabaAndi/data-collecting"></GithubIcon>
+                  </div>
+                </div>
+
                 {/** @todo: whole block shenanigans */}
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
                   <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 
@@ -61,7 +71,18 @@ function Projects() {
               </div>
 
               <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-                <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Portfolio</h3>
+
+                <div className='grid grid-cols-6'>
+                  <div className='grid col-start-2 col-span-4 justify-center'>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Portfolio</h3>
+                  </div>
+                  
+                  <div className='grid col-start-6 self-start place-self-end border-none border-green-900'>
+                        <GithubIcon size_min={24} size_standard={24} link="https://github.com/CsabaAndi/csabaandi.github.io"></GithubIcon>`
+                  </div>
+                </div>
+
+
                 {/** @todo: whole block shenanigans */}
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
                   <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 
@@ -104,7 +125,18 @@ function Projects() {
               </div>
 
               <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-                <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>WIP PROJECT 3</h3>
+
+                <div className='grid grid-cols-6'>
+                  <div className='grid col-start-2 col-span-4 justify-center'>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>WIP PROJECT 3</h3>
+                  </div>
+                  
+                  <div className='grid col-start-6 self-start place-self-end border-none border-green-900'>
+                        <GithubIcon size_min={24} size_standard={24} link=""></GithubIcon>`
+                  </div>
+                </div>
+
+
                 <PartBlockWithIcon name="Python"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
                 <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
@@ -117,7 +149,18 @@ function Projects() {
 
 
               <div className='flex flex-col hidden space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-                <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>LOREM</h3>
+
+                <div className='grid grid-cols-6'>
+                  <div className='grid col-start-2 col-span-4 justify-center'>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>LOREM</h3>
+                  </div>
+                  
+                  <div className='grid col-start-6 justify-end border-none border-green-900'>
+                        <GithubIcon size_min={24} size_standard={32} link=""></GithubIcon>`
+                  </div>
+                </div>
+
+
                 {/** @todo: whole block shenanigans */}
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
                   <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 

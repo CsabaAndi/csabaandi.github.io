@@ -33,7 +33,7 @@ function Thesis() {
                             
                             </h3>
                             <div className='p-1 ml-2 lg:ml-16 md:ml-10 sm:ml-2 sm:pr-1 md:p-1 border-none border-green-900'>
-                                <GithubIcon size_min={24} size_standard={32}></GithubIcon>`
+                                <GithubIcon size_min={24} size_standard={32} link='https://github.com/CsabaAndi/Szakdolgozat-Thesis'></GithubIcon>`
                             </div>
 
                         </div>
