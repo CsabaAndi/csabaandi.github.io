@@ -82,7 +82,7 @@ function StackNew() {
             </h2>
 
             <div className='grid'>
-                <div className='space-y-2 rounded-xl border-none px-2 py-4 shadow-xl shadow-black/30 sm:p-6'> {/** @todo: padding size**/}
+                <div className='space-y-2 rounded-xl border-none px-2 py-4 sm:p-6'> {/** @todo: padding size**/}
                     <StackBackend name="Backend"></StackBackend>
                     <StackFrontend name="Frontend"></StackFrontend>
                     <StackPrivacy name="Privacy"></StackPrivacy>
