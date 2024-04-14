@@ -15,9 +15,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
         <div id='eh'>
-          <div className='flex min-h-screen w-screen justify-center bg-cover bg-no-repeat sm:p-8' 
-               style={{backgroundImage: `url(${img_test})`}}>
-            <Testt />
+          <div className='flex w-screen justify-center bg-cover bg-no-repeat sm:p-0 md:p-0' 
+               style={{backgroundImage: `url(${img_test})`}}>           
+            <div className='min-h-screen'><Testt /></div>
           </div>
         </div>
   </React.StrictMode>

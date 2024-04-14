@@ -9,8 +9,7 @@ import BackToTop from '../BackToTop/Back';
 
 function Testt(){
     return (
-
-        <div id='main' className='flex flex-col max-w-screen-xl items-start overflow-hidden border border-stone-900 bg-stone-900 sm:rounded-3xl'>
+        <div id='main' className='flex flex-col max-w-screen-2xl 2xl:max-w-screen-xl 2xl:m-8 items-start overflow-hidden border border-stone-900 bg-stone-900 2xl:rounded-3xl'>
             <Header/>  
             <About/>               
             <Footer/>

@@ -7,7 +7,7 @@ import StackNew from './Stack/StackNew'
 
 function About_main() {
     return (
-        <div className='grow pb-6'>         
+        <div className='pb-6'>         
             <AboutMe></AboutMe>           
             <Education></Education>  
             <Thesis></Thesis>
