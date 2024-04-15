@@ -10,7 +10,7 @@ const ExperienceRowBlock: React.FC<experience> = (data: experience) => (
     <li className='border-b border-l border-stone-700  last:border-b-0'>
         <div className='-ml-2 pt-3 flex items-center gap-x-2'>
             <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs sm:text-sm font-bold text-white shadow-xl shadow-black/30'>
-                {data.start_year} {data.end_year != "" ? "-" : ""} {data.end_year}
+                {data.start_year} {data.end_year !== "" ? "-" : ""} {data.end_year}
             </span>
             <span className='text-sm sm:text-md font-medium text-stone-400'>{data.location}</span>
         </div>
@@ -28,7 +28,7 @@ function Education() {
                         <span className='text-green-700'>Tan</span>
                         ulmányok
                     </h2>
-                    <ul className="md:ml-4 lg:ml-0 lg:px-8">
+                    <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">
                         <ExperienceRowBlock start_year={2019} end_year="present" location="Szegedi Tudományegyetem" description="Bachelor of Computer Science Engineering"></ExperienceRowBlock>  
                         <ExperienceRowBlock start_year={2015} end_year={2019} location="Szekszárdi I. Béla Gimnázium, Kollégium és Általános Iskola" description="Érettségi"></ExperienceRowBlock>                    
                     </ul>
@@ -38,8 +38,8 @@ function Education() {
                         <span className='text-green-700'>Ny</span>
                         elv
                     </h2>
-                    <ul className="md:ml-4 lg:ml-0 lg:px-8">                       
-                        <ExperienceRowBlock start_year={2019} end_year="" location="Szekszárd" description="Angol C tipusú nyelvizsga"></ExperienceRowBlock>               
+                    <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">                       
+                        <ExperienceRowBlock start_year={2019} end_year="" location="Szekszárd" description="Angol C típusú nyelvizsga"></ExperienceRowBlock>               
                     </ul>
                 </div>
                 {/* for future work experience */}
