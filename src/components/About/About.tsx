@@ -65,7 +65,7 @@ function AboutMe() {
                     </div>
                     <div className='flex lg:basis-1/12'>
                         <div className='-my-8 flex w-full justify-center self-center xl:-ml-24 xl:block'>
-                            <div className='aspect-square w-28 lg:w-36 xl:w-40 overflow-hidden rounded-3xl shadow-xl shadow-black/40'>
+                            <div className='z-20 aspect-square w-28 lg:w-36 xl:w-40 overflow-hidden rounded-3xl shadow-xl shadow-black/40'>
                                 <img src={"https://media.istockphoto.com/id/537373196/photo/trees-forming-a-heart.jpg?s=612x612&w=0&k=20&c=onZKNjkycICe4q2ZDnKi39z42Ax9tpZT7pph-2e5Seo="} alt="Logo" />;                               
                             </div>
                         </div>
