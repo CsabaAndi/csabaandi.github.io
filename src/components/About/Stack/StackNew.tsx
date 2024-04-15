@@ -1,9 +1,5 @@
 import * as Icons from "../../Icons/ProjectIcons"
-
-
-{/** @todo: delete **/}
-var bg_color_skill_full = "bg-amber-400"
-var bg_color_skill_empty = "bg-stone-700"
+import * as HardWareIcons from "../../Icons/HardwareIcon"
 
 
 const StackBackend: React.FC<{ name: string}> = ({ name}) => (
@@ -64,6 +60,12 @@ const StackPrivacy: React.FC<{ name: string}> = ({ name}) => (
 
             <div className='border-none  bg-stone-800'>
                 <Icons.PythonIcon size_min={16} size_standard={32}></Icons.PythonIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <HardWareIcons.WinIcon size_min={16} size_standard={32}></HardWareIcons.WinIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <HardWareIcons.AndroidIcon size_min={16} size_standard={32}></HardWareIcons.AndroidIcon>
             </div>
             {/** @todo: */}
             
