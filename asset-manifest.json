@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/andicsaba.hu/static/css/main.5209ea5f.css",
-    "main.js": "/andicsaba.hu/static/js/main.3ecc3b08.js",
+    "main.js": "/andicsaba.hu/static/js/main.cb6f56db.js",
     "static/media/test2.jpg": "/andicsaba.hu/static/media/test2.a38aaf98005f1677e18f.jpg",
     "index.html": "/andicsaba.hu/index.html",
     "main.5209ea5f.css.map": "/andicsaba.hu/static/css/main.5209ea5f.css.map",
-    "main.3ecc3b08.js.map": "/andicsaba.hu/static/js/main.3ecc3b08.js.map"
+    "main.cb6f56db.js.map": "/andicsaba.hu/static/js/main.cb6f56db.js.map"
   },
   "entrypoints": [
     "static/css/main.5209ea5f.css",
-    "static/js/main.3ecc3b08.js"
+    "static/js/main.cb6f56db.js"
   ]
 }
