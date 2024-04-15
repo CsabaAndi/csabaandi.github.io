@@ -9,7 +9,7 @@ function AboutMe() {
                         <div className='flex flex-col overflow-hidden break-words gap-y-6 rounded-2xl bg-stone-800 p-4 pt-12 shadow-xl shadow-black/30 md:p-8 md:pt-12 xl:pr-32 lg:pt-6'> {/** @todo: pr-size **/}
                             <div className='flex flex-wrap mb-1 items-center'>
 
-                                <h1 className="text-3xl font-black text-white items-center ">Andi Csabaaaaaaaaaa</h1>
+                                <h1 className="text-3xl font-black text-white items-center ">Andi Csaba</h1>
 
                                 <p className='mt-1 ml-0 xs:ml-1 xxs:ml-0.5 sm:ml-2 text-green-600 font-bold text-sm sm:text-lg'>&lt;Mérnökinformatikus hallgató&gt;</p>
                             </div>
