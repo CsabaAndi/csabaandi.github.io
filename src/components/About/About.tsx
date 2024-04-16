@@ -29,7 +29,7 @@ function AboutMe() {
                                             <span className='text-xs font-bold text-white sm:text-sm'>Tartozkodási hely: </span>
                                             <span className='text-xs text-gray-300 sm:text-sm'>Szeged</span>
                                         </li>
-                                        <li className='flex gap-x-2'>
+                                        <li className='gap-x-2 flex-none sm:flex'>
                                             <span className='text-xs font-bold text-white sm:text-sm'>Tanulmányok: </span>
                                             <span className='text-xs text-gray-300 sm:text-sm'>Mérnökinformatikus bsc hallgató</span>
                                         </li>
