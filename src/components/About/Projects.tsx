@@ -27,7 +27,7 @@ function Projects() {
           </h2>
           <div className='grid grid-cols-8 sm:grid-cols-1'>
 
-            <div className='grid col-span-6 col-start-2 gap-4 sm:gap-2 md:gap-4 lg:gap-6 col-start-2 sm:auto-cols-fr sm:grid-flow-col'>
+            <div className='grid col-span-6 sm:col-start-1 col-start-2 gap-4 sm:gap-2 md:gap-4 lg:gap-6 sm:auto-cols-fr sm:grid-flow-col'>
               {/** @todo: **/}
               <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
 
@@ -126,84 +126,45 @@ function Projects() {
 
               <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
 
-                <div className='grid grid-cols-6'>
+              <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
-                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>WIP PROJECT 3</h3>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>kötprog</h3>
                   </div>
                   
-                  <div className='grid col-start-6 self-start place-self-end border-none border-green-900'>
-                        <GithubIcon size_min={24} size_standard={24} link=""></GithubIcon>`
+                  <div className='grid mt-0 sm:mr-0 col-start-6 self-start place-self-end border-none border-green-900'>
+                        <GithubIcon size_min={24} size_standard={24} link="https://github.com/CsabaAndi/Webkert_2024"></GithubIcon>
                   </div>
                 </div>
-
-
-                <PartBlockWithIcon name="Python"></PartBlockWithIcon>
-                <PartBlockWithIcon name="Playwright"></PartBlockWithIcon>
-                <PartBlockWithIcon name="Docker"></PartBlockWithIcon>
-                <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
-                  <p className='row-span-5 break-normal text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4'> {/** @todo: word break: break-all for now **/}
-                    <h3 className='text-md text-center font-extrabold tracking-tight break-normal text-stone-200 px-2 sm:text-lg' >Linux szerveren való futtatása a portfólio weboldalnak</h3>
-                  </p>
-                </div>
-              </div>
-
-
-              <div className='flex flex-col hidden space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
-
-                <div className='grid grid-cols-6'>
-                  <div className='grid col-start-2 col-span-4 justify-center'>
-                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>LOREM</h3>
-                  </div>
-                  
-                  <div className='grid col-start-6 justify-end border-none border-green-900'>
-                        <GithubIcon size_min={24} size_standard={32} link=""></GithubIcon>`
-                  </div>
-                </div>
-
 
                 {/** @todo: whole block shenanigans */}
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
                   <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 
                                   justify-items-start items-center rounded-xl border-none border-green-900 bg-stone-800 bg-stone-800 px-1 py-2 sm:px-2 sm:py-4 
                                   shadow-xl shadow-black/30 sm:p-6 gap-10  sm:gap-10'>
-                    <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>LOREM</h3>
+                    <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>Angular</h3>
                     <div className='border-none border-green-900 bg-stone-800'>
-                      <Icons.ReactIcon size_min={16} size_standard={32}></Icons.ReactIcon>
+                      <Icons.AngularIcon size_min={16} size_standard={32}></Icons.AngularIcon>
                     </div>
                   </div>
                 </div>
-
-                <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
-                  <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 
-                                  justify-items-start items-center rounded-xl border-none border-green-900 bg-stone-800 bg-stone-800 px-1 py-2 sm:px-2 sm:py-4 
-                                  shadow-xl shadow-black/30 sm:p-6 gap-10  sm:gap-10'>
-                    <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>LOREM</h3>
-                    <div className='border-none border-green-900 bg-stone-800'>
-                      <Icons.TailwindIcon size_min={16} size_standard={32}></Icons.TailwindIcon>
-                    </div>
-                  </div>
-                </div>
-                
                 <div className='grid grid-cols-4 sm:grid-cols-6 md:grid-cols-8 lg:grid-cols-10'>
                   <div className='grid grid-cols-2 col-span-2 col-start-2 sm:col-start-1 sm:col-span-6 md:col-start-1 md:col-span-8 lg:col-start-2 lg:col-span-8 
                                   justify-items-start items-center rounded-xl border-none border-green-900 bg-stone-800 bg-stone-800 px-1 py-2 sm:px-2 sm:py-4 
                                   shadow-xl shadow-black/30 sm:p-6 gap-10  sm:gap-10 mb-2'>
-                    <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>LOREM</h3>
+                    <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>Firebase</h3>
                     <div className='border-none border-green-900 bg-stone-800'>
-                      <Icons.DockerIcon size_min={16} size_standard={32}></Icons.DockerIcon>
+                      <Icons.FirebaseIcon size_min={16} size_standard={32}></Icons.FirebaseIcon>
                     </div>
                   </div>
                 </div>
-
+              
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
-                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
-                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg'>LOREM</h3>
+                  <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 '> {/** @todo: word break: break-all for now **/}
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Webfeljlesztési keretrendszerek projektmunka</h3>
                   </p>
-                </div>
+                </div>            
               </div>
-
             </div>
-
           </div> 
       </section>
   )
