@@ -2,7 +2,7 @@ import * as Icons from "../../Icons/ProjectIcons"
 import * as HardWareIcons from "../../Icons/HardwareIcon"
 
 
-const StackBackend: React.FC<{ name: string}> = ({ name}) => (
+const StackBackFront: React.FC<{ name: string}> = ({ name}) => (
     <div className='p-2'>
     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{name}</h3> {/* Python Java JavaScript / TypeScript */}
     <div className='mt-4 grid grid-rows-1 justify-center border-none'>
@@ -22,6 +22,19 @@ const StackBackend: React.FC<{ name: string}> = ({ name}) => (
             <div className='border-none  bg-stone-800'>
                 <Icons.JavaIcon size_min={16} size_standard={32}></Icons.JavaIcon>
             </div>
+
+            <div className='border-none  bg-stone-800'>
+                <Icons.ReactIcon size_min={16} size_standard={32}></Icons.ReactIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <Icons.TailwindIcon size_min={16} size_standard={32}></Icons.TailwindIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <Icons.AngularIcon size_min={16} size_standard={32}></Icons.AngularIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <Icons.NodeJsIcon size_min={16} size_standard={32}></Icons.NodeJsIcon>
+            </div>
             
         </div>
     </div>
@@ -29,7 +42,7 @@ const StackBackend: React.FC<{ name: string}> = ({ name}) => (
 )
 
 
-const StackFrontend: React.FC<{ name: string}> = ({ name}) => (
+const StackOther: React.FC<{ name: string}> = ({ name}) => (
     <div className='p-2'>
     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{name}</h3> {/* Python Java JavaScript / TypeScript */}
     <div className='mt-4 grid grid-rows-1 justify-center border-none'>
@@ -38,10 +51,13 @@ const StackFrontend: React.FC<{ name: string}> = ({ name}) => (
                         shadow-xl shadow-black/30'>
 
             <div className='border-none  bg-stone-800'>
-                <Icons.ReactIcon size_min={16} size_standard={32}></Icons.ReactIcon>
+                <HardWareIcons.LinuxIcon size_min={16} size_standard={32}></HardWareIcons.LinuxIcon>
             </div>
             <div className='border-none  bg-stone-800'>
-                <Icons.TailwindIcon size_min={16} size_standard={32}></Icons.TailwindIcon>
+                <HardWareIcons.WinIcon size_min={16} size_standard={32}></HardWareIcons.WinIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <HardWareIcons.AndroidIcon size_min={16} size_standard={32}></HardWareIcons.AndroidIcon>
             </div>
             
         </div>
@@ -59,13 +75,19 @@ const StackPrivacy: React.FC<{ name: string}> = ({ name}) => (
                         shadow-xl shadow-black/30'>
 
             <div className='border-none  bg-stone-800'>
-                <Icons.PythonIcon size_min={16} size_standard={32}></Icons.PythonIcon>
+                <HardWareIcons.LinuxIcon size_min={16} size_standard={32}></HardWareIcons.LinuxIcon>
             </div>
             <div className='border-none  bg-stone-800'>
                 <HardWareIcons.WinIcon size_min={16} size_standard={32}></HardWareIcons.WinIcon>
             </div>
             <div className='border-none  bg-stone-800'>
                 <HardWareIcons.AndroidIcon size_min={16} size_standard={32}></HardWareIcons.AndroidIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <HardWareIcons.TwoFactor size_min={16} size_standard={32}></HardWareIcons.TwoFactor>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <Icons.FirebaseIcon size_min={16} size_standard={32}></Icons.FirebaseIcon>
             </div>
             {/** @todo: */}
             
@@ -85,8 +107,8 @@ function StackNew() {
 
             <div className='grid'>
                 <div className='space-y-2 rounded-xl border-none px-2 py-4 sm:p-6'> {/** @todo: padding size**/}
-                    <StackBackend name="Backend"></StackBackend>
-                    <StackFrontend name="Frontend"></StackFrontend>
+                    <StackBackFront name="Backend & Frontend"></StackBackFront>
+                    <StackOther name="Other"></StackOther>
                     <StackPrivacy name="Privacy"></StackPrivacy>
                 </div>
             </div>
