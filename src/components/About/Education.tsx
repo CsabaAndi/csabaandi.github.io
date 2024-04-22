@@ -29,17 +29,17 @@ function Education() {
                         ulmányok
                     </h2>
                     <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">
-                        <ExperienceRowBlock start_year={2019} end_year="present" location="Szegedi Tudományegyetem" description="Bachelor of Computer Science Engineering"></ExperienceRowBlock>  
+                        <ExperienceRowBlock start_year={2019} end_year="present" location="Szegedi Tudományegyetem" description="Mérnökinformatikus BSc"></ExperienceRowBlock>  
                         <ExperienceRowBlock start_year={2015} end_year={2019} location="Szekszárdi I. Béla Gimnázium, Kollégium és Általános Iskola" description="Érettségi"></ExperienceRowBlock>                    
                     </ul>
                 </div>
                 <div className='col-span-1 lg:px-12 lg:justify-self-end'>
                     <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Ny</span>
-                        elv
+                        <span className='text-green-700'>Nye</span>
+                        lv
                     </h2>
                     <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">                       
-                        <ExperienceRowBlock start_year={2019} end_year="" location="Szekszárd" description="Angol C típusú nyelvizsga"></ExperienceRowBlock>               
+                        <ExperienceRowBlock start_year={2019} end_year="" location="Szekszárd" description="Angol középfokú „C” típusú nyelvvizsga"></ExperienceRowBlock>               
                     </ul>
                 </div>
                 {/* for future work experience */}
