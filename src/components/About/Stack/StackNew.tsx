@@ -102,14 +102,14 @@ function StackNew() {
         <section id='sect_3_stacknew' className='px-4 mb-0 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
             <h2 className='mb-0 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
                 <span className='text-green-700'>Szak</span>
-                mai - Ismeretek
+                mai ismeretek
             </h2>
 
             <div className='grid'>
                 <div className='space-y-2 rounded-xl border-none px-2 py-4 sm:p-6'> {/** @todo: padding size**/}
                     <StackBackFront name="Backend & Frontend"></StackBackFront>
-                    <StackOther name="Other"></StackOther>
-                    <StackPrivacy name="Privacy"></StackPrivacy>
+                    <StackOther name="tmp"></StackOther>
+                    <StackPrivacy name="Hardware & Privacy"></StackPrivacy>
                 </div>
             </div>
         </section>
