@@ -22,8 +22,8 @@ function Projects() {
   return (
       <section id='sect_x_projects' className='px-4 mb-12 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
           <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-          <span className="text-green-700">Proje</span>
-          cts
+          <span className="text-green-700">Pro</span>
+          jektek
           </h2>
           <div className='grid grid-cols-8 sm:grid-cols-1'>
 
@@ -33,7 +33,7 @@ function Projects() {
 
                 <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
-                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>data collecting</h3>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Adatgyűjtés</h3>
                   </div>
                   
                   <div className='grid mt-0 sm:mr-0 col-start-6 self-start place-self-end border-none border-green-900'>
@@ -65,7 +65,7 @@ function Projects() {
               
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
                   <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 '> {/** @todo: word break: break-all for now **/}
-                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Adatgyüjtés a Szakdolgozathoz</h3>
+                    <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Adatgyűjtés szakdolgozathoz</h3>
                   </p>
                 </div>            
               </div>
@@ -74,7 +74,7 @@ function Projects() {
 
                 <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
-                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Portfolio</h3>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Portfólió weboldal</h3>
                   </div>
                   
                   <div className='grid col-start-6 self-start place-self-end border-none border-green-900'>
@@ -119,7 +119,7 @@ function Projects() {
 
                 <div className="grid h-full justify-center content-end overflow-hidden border-none border-green-900 bg-none rounded-xl">
                   <p className='row-span-5 text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4'> {/** @todo: word break: break-all for now **/}
-                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Responsive portfolió weboldal</h3>
+                    <h3 className='text-md break-normal text-center font-extrabold tracking-tight text-stone-200 px-2 sm:text-lg' >Reszponzív portfólió weboldal</h3>
                   </p>
                 </div>
               </div>
@@ -128,7 +128,7 @@ function Projects() {
 
               <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
-                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>kötprog</h3>
+                    <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>Kriptovaluta árfolyam figyelő alkalmazás</h3>
                   </div>
                   
                   <div className='grid mt-0 sm:mr-0 col-start-6 self-start place-self-end border-none border-green-900'>
