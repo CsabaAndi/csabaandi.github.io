@@ -29,10 +29,9 @@ function Thesis() {
                         <div className='flex justify-end'>
 
                             <h3 className='text-md text-center mb-2 font-extrabold tracking-tight text-stone-200 sm:text-lg'>
-                            "Mély tanulás és szövegfeldolgozás alkalmazása a sportfogadásban"
-                            
+                            "Gépi tanulás és mély tanulás alkalmazása a labdarúgásban"                           
                             </h3>
-                            <div className='p-1 ml-2 lg:ml-16 md:ml-10 sm:ml-2 sm:pr-1 md:p-1 border-none border-green-900'>
+                            <div className='p-1 ml-3 xl:ml-24 lg:ml-12 md:ml-10 sm:ml-10 sm:pr-1 md:p-1 border-none border-green-900'>
                                 <GithubIcon size_min={24} size_standard={32} link='https://github.com/CsabaAndi/Szakdolgozat-Thesis'></GithubIcon>`
                             </div>
 
@@ -80,13 +79,12 @@ function Thesis() {
 
                             </div>
                             <div className='grid grid-rows-5 col-start-2 col-span-3 overflow-hidden sm:border-2 border-green-900 bg-stone-900 rounded-xl'>  {/** @todo: cols/rows--> size sm-md-lg **/}
-                                <p className='row-span-5 break-all text-md text-left tracking-tight text-stone-200 sm:text-lg sm:px-2 sm:py-4 shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
-                                <h3 className='text-center' >Lorem Ipsum</h3>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultrices, tortor in finibus gravida, tortor justo luctus lorem, eleifend ultrices sapien lorem sit amet mauris. 
-                                Cras aliquet, ipsum sed sagittis aliquet, ligula velit feugiat turpis, ut interdum nunc ligula et tortor. Proin finibus leo nisi. Morbi volutpat massa risus, vitae aliquet urna porta sit amet. 
-                                Morbi vestibulum orci turpis, vel maximus risus laoreet sit amet. Maecenas dapibus dui vitae blandit condimentum. Praesent non odio erat. Curabitur molestie vestibulum aliquam.
-
-                                </p>
+                                <p className='row-span-5 break-words text-md text-left tracking-tight text-stone-200 py-4 sm:py-6 md:py-4 lg:py-6 sm:text-lg sm:px-6 sm:py- shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
+                                <h3 className='text-red-500 text-center mb-3 sm:mb-3 md:mb-4' >Folyamatban</h3>
+                                    <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-4'>Cél: minél pontosabb modellek alkotása labdarúgás meccsek eredményének predikciójára.</h4> 
+                                    <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-4'>Adatok gyűjtése, feldolgozása, elemzése és vizualizációja,</h4>                              
+                                    <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-1'>majd predikciós modellek alkotása gépi tanulás és mély tanulás alkalmazásával.</h4>
+                                </p>                               
                             </div>
                         </div>
                     </div>
