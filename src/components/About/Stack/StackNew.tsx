@@ -1,5 +1,6 @@
 import * as Icons from "../../Icons/ProjectIcons"
 import * as HardWareIcons from "../../Icons/HardwareIcon"
+import * as DCIcons from "../../Icons/DataCloudIcons"
 
 
 const StackBackFront: React.FC<{ name: string}> = ({ name}) => (
@@ -42,7 +43,7 @@ const StackBackFront: React.FC<{ name: string}> = ({ name}) => (
 )
 
 
-const StackOther: React.FC<{ name: string}> = ({ name}) => (
+const StackDataCloud: React.FC<{ name: string}> = ({ name}) => (
     <div className='p-2'>
     <h3 className='text-md text-center font-extrabold tracking-tight text-stone-200 sm:text-lg'>{name}</h3> {/* Python Java JavaScript / TypeScript */}
     <div className='mt-4 grid grid-rows-1 justify-center border-none'>
@@ -51,13 +52,16 @@ const StackOther: React.FC<{ name: string}> = ({ name}) => (
                         shadow-xl shadow-black/30'>
 
             <div className='border-none  bg-stone-800'>
-                <HardWareIcons.LinuxIcon size_min={16} size_standard={32}></HardWareIcons.LinuxIcon>
+                <DCIcons.PostgreSQLIcon size_min={16} size_standard={32}></DCIcons.PostgreSQLIcon>
             </div>
             <div className='border-none  bg-stone-800'>
-                <HardWareIcons.WinIcon size_min={16} size_standard={32}></HardWareIcons.WinIcon>
+                <DCIcons.SQLIcon size_min={16} size_standard={32}></DCIcons.SQLIcon>
             </div>
             <div className='border-none  bg-stone-800'>
-                <HardWareIcons.AndroidIcon size_min={16} size_standard={32}></HardWareIcons.AndroidIcon>
+                <DCIcons.FirebaseIcon size_min={16} size_standard={32}></DCIcons.FirebaseIcon>
+            </div>
+            <div className='border-none  bg-stone-800'>
+                <DCIcons.AWSIcon size_min={16} size_standard={32}></DCIcons.AWSIcon>
             </div>
             
         </div>
@@ -86,9 +90,6 @@ const StackPrivacy: React.FC<{ name: string}> = ({ name}) => (
             <div className='border-none  bg-stone-800'>
                 <HardWareIcons.TwoFactor size_min={16} size_standard={32}></HardWareIcons.TwoFactor>
             </div>
-            <div className='border-none  bg-stone-800'>
-                <Icons.FirebaseIcon size_min={16} size_standard={32}></Icons.FirebaseIcon>
-            </div>
             {/** @todo: */}
             
         </div>
@@ -108,8 +109,8 @@ function StackNew() {
             <div className='grid'>
                 <div className='space-y-2 rounded-xl border-none px-2 py-4 sm:p-6'> {/** @todo: padding size**/}
                     <StackBackFront name="Backend & Frontend"></StackBackFront>
-                    <StackOther name="tmp"></StackOther>
-                    <StackPrivacy name="Hardware & Privacy"></StackPrivacy>
+                    <StackDataCloud name="Database & Cloud"></StackDataCloud>
+                    <StackPrivacy name="Operating systems & Privacy"></StackPrivacy>
                 </div>
             </div>
         </section>
