@@ -1,5 +1,6 @@
 import * as Icons from "../Icons/ProjectIcons"
 import {GithubIcon} from '../Icons/SocialIcons'
+import * as DCIcons from "../Icons/DataCloudIcons"
 
 
 {/** @todo: fix icons **/}
@@ -153,7 +154,7 @@ function Projects() {
                                   shadow-xl shadow-black/30 sm:p-6 gap-10  sm:gap-10 mb-2'>
                     <h3 className='text-xs text-center font-extrabold tracking-tight text-stone-200 lg:text-md border-none border-green-900 bg-stone-800'>Firebase</h3>
                     <div className='border-none border-green-900 bg-stone-800'>
-                      <Icons.FirebaseIcon size_min={16} size_standard={32}></Icons.FirebaseIcon>
+                      <DCIcons.FirebaseIcon size_min={16} size_standard={32}></DCIcons.FirebaseIcon>
                     </div>
                   </div>
                 </div>
