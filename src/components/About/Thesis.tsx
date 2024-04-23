@@ -80,7 +80,7 @@ function Thesis() {
                             </div>
                             <div className='grid grid-rows-5 col-start-2 col-span-3 overflow-hidden sm:border-2 border-green-900 bg-stone-900 rounded-xl'>  {/** @todo: cols/rows--> size sm-md-lg **/}
                                 <p className='row-span-5 break-words text-md text-left tracking-tight text-stone-200 py-4 sm:py-6 md:py-4 lg:py-6 sm:text-lg sm:px-6 sm:py- shadow-xl shadow-black/30'> {/** @todo: word break: break-all for now **/}
-                                <h3 className='text-red-500 text-center mb-3 sm:mb-3 md:mb-4' >Folyamatban</h3>
+                                <h3 className='text-center mb-3 sm:mb-3 md:mb-4' >Folyamatban <span className='text-yellow-500'>!</span></h3>
                                     <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-4'>Cél: minél pontosabb modellek alkotása labdarúgás meccsek eredményének predikciójára.</h4> 
                                     <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-4'>Adatok gyűjtése, feldolgozása, elemzése és vizualizációja,</h4>                              
                                     <h4 className='pl-6 sm:pl-0 md:pl-6 lg:pl-6 xl:pl-8 mb-1'>majd predikciós modellek alkotása gépi tanulás és mély tanulás alkalmazásával.</h4>
