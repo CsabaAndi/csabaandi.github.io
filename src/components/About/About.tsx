@@ -45,21 +45,21 @@ function AboutMe() {
                                     </ul>
                                 </div>
                                 <div className='col-start-2 rounded-xl border-2 border-green-900 bg-stone-900 text-xs sm:text-sm text-white overflow-hidden break-words p-2 sm:p-3 lg:ml-10 lg:mr-10 xl:ml-16 xl:mr-0 2xl:mr-0 lg:col-start-3 lg:col-span-2'>
-                                    <p className="text-xs font-bold text-white sm:text-sm mb-1">Hobbik</p>
+                                    <p className="text-xs font-bold text-white sm:text-sm mb-1 decoration-green-900 decoration-1 sm:decoration-2 underline underline-offset-4">Hobbik</p>
                                     <ul className='grid grid-cols-1 gap-4 px-4'>
                                         <li className='col-span-1 flex gap-x-2'>
                                             <span className='font-bold'>Főzés: </span>
-                                            <p className="pt-1 sm:pt-0">Szeretek főzni és sütni. 
+                                            <p className="italic">Szeretek főzni és sütni. 
                                             </p>
                                         </li>
                                         <li className='col-span-1 flex gap-x-2'>
                                             <span className='font-bold'>Sport: </span>
-                                            <p className="pt-1 text-red-500 sm:pt-0">Futni szoktam.
+                                            <p className="italic">Szokásom futni.
                                             </p>
                                         </li>
                                         <li className='col-span-1 flex gap-x-2'>
-                                            <span className='font-bold'>Olvasás: </span>
-                                            <p className="pt-1 sm:pt-0">Krimi & Fantasy rajongó vagyok. 
+                                            <span className='font-bold '>Olvasás: </span>
+                                            <p className="italic">Krimi & Fantasy rajongó vagyok. 
                                             </p>
                                         </li>
                                         
