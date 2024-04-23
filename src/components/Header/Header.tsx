@@ -22,10 +22,10 @@ function Header() {
             </text>
             <div id="header_section_links" className='flex gap-x-2 text-stone-200 text-xs sm:gap-x-4 sm:text-lg lg:text-2xl'> {/** @todo: better implementation pls **/}
                 <button onClick={() => scrollToSection("sect_xy_thesis")}>
-                    <span>Szakdolgozat</span>
+                    <span className='border-b border-green-700'>Szakdolgozat</span>
                 </button>
                 <button onClick={() => scrollToSection("sect_3_stacknew")}>
-                    <span>Ismeretek</span>
+                    <span className='border-b border-green-700'>Ismeretek</span>
                 </button>
             </div>
             <div id="header_icons" className='flex gap-x-2 sm:gap-x-3'>
