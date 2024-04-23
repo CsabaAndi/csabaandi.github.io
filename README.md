@@ -1,8 +1,6 @@
-
-
 ## Available Scripts
 
-### `npm run deploy`
+### `npm run deploy -- -m "Your custom message"`
 
 Builds then deploys the app to gh-pages github branch
 
