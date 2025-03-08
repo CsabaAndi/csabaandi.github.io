@@ -2,6 +2,7 @@ import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import About from '../About/MainPage'
 import BackToTop from '../BackToTop/Back';
+import '../color.css';
 
 // border border-stone-900 base
 // sm:border border border-rose-600 testing

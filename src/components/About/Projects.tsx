@@ -23,14 +23,14 @@ function Projects() {
   return (
       <section id='sect_x_projects' className='px-4 mb-12 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
           <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-          <span className="text-green-700">Pro</span>
+          <span className="text-green-700" id="colored-text">Pro</span>
           jektek
           </h2>
           <div className='grid grid-cols-8 sm:grid-cols-1'>
 
             <div className='grid col-span-6 sm:col-start-1 col-start-2 gap-4 sm:gap-2 md:gap-4 lg:gap-6 sm:auto-cols-fr sm:grid-flow-col'>
               {/** @todo: **/}
-              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4' id="colored-border">
 
                 <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
@@ -71,7 +71,7 @@ function Projects() {
                 </div>            
               </div>
 
-              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4' id="colored-border">
 
                 <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>
@@ -125,7 +125,7 @@ function Projects() {
                 </div>
               </div>
 
-              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4'>
+              <div className='flex flex-col space-y-2 p-2 pb-4 rounded-xl border-2 sm:border-none border-green-900 sm:bg-stone-800 shadow-xl shadow-black/30 sm:p-6 md:p-4 lg:p-4' id="colored-border">
 
               <div className='grid grid-cols-6'>
                   <div className='grid col-start-2 col-span-4 justify-center'>

@@ -9,7 +9,7 @@ type experience = {
 const ExperienceRowBlock: React.FC<experience> = (data: experience) => (
     <li className='border-b border-l border-stone-700  last:border-b-0'>
         <div className='-ml-2 pt-3 flex items-center gap-x-2'>
-            <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs sm:text-sm font-bold text-white shadow-xl shadow-black/30'>
+            <span className='whitespace-nowrap rounded-full border border-green-700 bg-stone-900 px-2 py-1 text-xs sm:text-sm font-bold text-white shadow-xl shadow-black/30' id="colored-border">
                 {data.start_year} {data.end_year !== "" ? "-" : ""} {data.end_year}
             </span>
             <span className='text-sm sm:text-md font-medium text-stone-400'>{data.location}</span>
@@ -25,7 +25,7 @@ function Education() {
             <div className='grid grid-cols-1 gap-4 lg:grid-cols-2'>
                 <div className='col-span-1'>
                     <h2 className='pb-4 sm:pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Tan</span>
+                        <span className='text-green-700' id="colored-text">Tan</span>
                         ulmányok
                     </h2>
                     <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">
@@ -35,7 +35,7 @@ function Education() {
                 </div>
                 <div className='col-span-1 lg:px-12 lg:justify-self-end'>
                     <h2 className='pb-6 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                        <span className='text-green-700'>Nye</span>
+                        <span className='text-green-700' id="colored-text">Nye</span>
                         lv
                     </h2>
                     <ul className="md:ml-4 md:mr-4 lg:ml-0 lg:px-6 xl:px-12">                       

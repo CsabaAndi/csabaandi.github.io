@@ -102,7 +102,7 @@ function StackNew() {
     return (
         <section id='sect_3_stacknew' className='px-4 mb-0 sm:p-0 sm:px-4 md:px-8'> {/** @todo: padding/margin size**/}
             <h2 className='mb-0 text-2xl font-extrabold tracking-tight text-stone-200 sm:text-3xl'>
-                <span className='text-green-700'>Szak</span>
+                <span className='text-green-700' id="colored-text">Szak</span>
                 mai ismeretek
             </h2>
 

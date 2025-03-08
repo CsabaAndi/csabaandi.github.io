@@ -4,11 +4,13 @@ import AboutMe from './About'
 import Thesis from './Thesis'
 import BackToTop from '../BackToTop/Back'
 import StackNew from './Stack/StackNew'
+import Work from './Work'
 
 function About_main() {
     return (
         <div className='pb-6'>         
-            <AboutMe></AboutMe>           
+            <AboutMe></AboutMe>     
+            <Work></Work>
             <Education></Education>  
             <Thesis></Thesis>
             <Projects></Projects> 
